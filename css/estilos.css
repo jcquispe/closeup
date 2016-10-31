@@ -1,0 +1,159 @@
+body{
+    font-family: 'Arial';
+}
+#contenido{
+    width: 90%;
+    display: none;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+#loading{
+    margin-top: 150px;
+    margin-left: 40%;
+    width: 200px;
+}
+#banner{
+    width:100%;
+    height: 70px;
+    background: #00796b;
+    color:#FFF;
+    top: 0;
+    position: absolute;
+}
+#titbanner{
+    padding-left: 50px;
+}
+#add{
+    background: red;
+    color:#fff;
+    border: none;
+    width: 100px;
+    height:100px;
+}
+#portada{
+    display: none;
+    width:1200px;
+    margin:0 auto;
+    padding-top: 80px;
+}
+#izquierda{
+    background: url('/img/izquierda.png')no-repeat #323226;
+    background-size: contain;
+    float:left;
+    width:17.2725%;
+    height:519px;
+    color: #FFFBDD;
+}
+#derecha{
+    background: #F7F0C5;
+    width:17.2725%;
+    float:left;
+    height:519px;
+    color: #323226;
+}
+#izquierdo{
+    width: 31.21%;
+    height: 530px;
+    float:left;
+    background: url('/img/izquierdo.png')no-repeat #FFFBDD;
+    background-size: contain;
+    color:#323226;
+}
+#medio{
+    width:3.02%;
+    height:530px;
+    float:left;
+    background: url('/img/medio.png')no-repeat #FFFBDD;
+    background-size: contain;
+}
+#derecho{
+    width:31.21%;
+    height:530px;
+    float:left;
+    background: url('/img/derecho.png')no-repeat #FFFBDD;
+    background-size: contain;
+    color:#323226;
+}
+#vertical{
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);	
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-top:50px;
+}
+#imagen{
+    margin-left: 14px;
+    margin-top: 30px;
+    width: 350px;
+    height: 340px;
+    display:none;
+}
+#imagenadd{
+    margin-left: 14px;
+    margin-top: 30px;
+    width: 350px;
+    height: 340;
+}
+form input[type="file"] {
+    display: none;
+}
+#principal{
+    margin-top: 10px;
+    margin-left: 22px;
+    color: #000000;
+}
+#parrafo{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 105px;
+    font-size: 10px;
+    color: #fff;
+}
+#autor{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 10px;
+}
+#nombre{
+    width:240px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 5px;
+    color: #FFFBDD;
+}
+#titulo{
+    width:240px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 5px;
+    color: #FFFBDD;
+}
+#texto{
+    width:330px;
+    font-size: 9px;
+    font-family: 'Arial';
+    border: none;
+    background-color: transparent;
+    color: #FFFBDD;
+    text-align: justify;
+}
+
+.jc-button{
+    background:#00796b;
+    color:#fff;
+    border:none;
+    font-size: 18px;
+    width:200px;
+    height:40px;
+}
+.jc-button:hover{
+    background:#c62828;
+    font-weight:bold;
+}
+
